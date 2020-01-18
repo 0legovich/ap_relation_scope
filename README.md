@@ -1,24 +1,11 @@
-# README
+# ApRelationScope
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What for?
+This project is created to demonstrate an error that occurs in the action_policy gem. More information: https://github.com/palkan/action_policy/issues/101
 
-Things you may want to cover:
+## Steps to reproduce
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone project (use ruby version 2.5.1)
+2. `bundle install`
+3. `rails db:create db:migrate`
+4. `bundle exec rspec`
